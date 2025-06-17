@@ -11,9 +11,13 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.2",
     "grunt": "^1.6.1",
     "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }

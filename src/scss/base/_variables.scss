@@ -1,2 +1,8 @@
-$primary-color: #4b00ff;
-$secondary-color: #ff0077;
+:root {
+  --primary-color: #4b00ff;
+  --secondary-color: #ff0077;
+  --accent-color: #ff9900;
+  --text-color: #ffffff;
+  --background-gradient: linear-gradient(to bottom, #4b00ff, #ff0077, #ff9900);
+  --font-main: 'Arial', sans-serif;
+}

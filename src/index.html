@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maior evento de tecnologia do Brasil</title>
+  <link rel="stylesheet" href="./scss/styles.scss" />
 </head>
 <body>
-    <h1>oi</h1>
+
+    <header class="hero">
+    <img src="./assets/images/logo.svg" alt="Logo do Evento" class="logo">
+    <h1>O maior evento de tecnologia do Brasil começa em</h1>
+    <h2 id="countdown"></h2>
+
+        <div class="info">
+        <div class="details">
+            <div class="card-info">
+            <strong>Localização</strong>
+            <p>Cohabe - Recife - Pernambuco</p>
+            </div>
+            <div class="card-info">
+            <strong>Preço</strong>
+            <p>A partir de R$ 120,00</p>
+            </div>
+            <div class="card-info">
+            <strong>Quando</strong>
+            <p>10/10/1010</p>
+            </div>
+        </div>
+        <button id="cta">Garantir minha vaga</button>
+        </div>
+
+    </header>
+
+
+  <main>
+    <section class="card" data-aos="fade-right">
+      <div class="text">
+        <h3>Front-end</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium nisi nec velit vulputate...</p>
+      </div>
+      <img src="./assets/images/front-end.png" alt="Front-end">
+    </section>
+
+    <section class="card reverse" data-aos="fade-left">
+      <img src="./assets/images/backend.png" alt="Backend">
+      <div class="text">
+        <h3>Backend</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium nisi nec velit vulputate...</p>
+      </div>
+    </section>
+
+    <section class="card" data-aos="fade-right">
+      <div class="text">
+        <h3>Front-end</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium nisi nec velit vulputate...</p>
+      </div>
+      <img src="./assets/images/front-end.png" alt="Front-end">
+    </section>
+
+    <section class="card reverse" data-aos="fade-left">
+      <img src="./assets/images/backend.png" alt="Backend">
+      <div class="text">
+        <h3>Backend</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium nisi nec velit vulputate...</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>
